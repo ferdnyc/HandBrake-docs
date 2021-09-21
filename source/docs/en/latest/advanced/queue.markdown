@@ -37,20 +37,20 @@ Begin by [opening a Source, selecting a Title](../workflow/open-video-source.htm
 
 Select the `Show Queue` button on the toolbar to see the queued encodes, or `Jobs`.
 
-<!-- .system-macos -->
+<!-- .system-macos.imagepair -->
 
 ![Opening the Queue window](../../images/mac/queue-button-1.0.0.png "Select the Show Queue button on the toolbar to open the Queue window.")
 
 ![Queue window on Mac](../../images/mac/queue-1.0.0.png "The Queue window lists pending Jobs.")
 
-<!-- /.system-macos -->
-<!-- .system-windows -->
+<!-- /.system-macos.imagepair -->
+<!-- .system-windows.imagepair -->
 
 ![HandBrake toolbar on Windows](../../images/windows/toolbar-1.0.0.png "Select the Show Queue button on the toolbar to open the Queue window.")
 
 ![Queue window on Windows](../../images/windows/queue-1.0.0.png "The Queue window lists pending Jobs.")
 
-<!-- /.system-windows -->
+<!-- /.system-windows.imagepair -->
 
 You may open additional `Sources` and add them to the `Queue` in the same manner.
 
@@ -62,9 +62,11 @@ When using the `Queue`, you may find it beneficial to create multiple `Jobs` at 
 
 On Mac, first open the `Preferences` window using the `HandBrake` menu. In the `General` section, ensure that the `Automatically name output files` setting is selected and `Title` is part of the `Format` field.
 
+<!-- .imagepair -->
 ![Opening the Preferences window on Mac](../../images/mac/preferences-menu-1.0.0.png "Open the Preferences window using the HandBrake menu.")
 
 ![Selecting the Automatically name output files setting](../../images/mac/preferences-auto-naming-1.0.0.png "Select Automatically name output files to ensure unique file names when adding multiple Titles to the Queue.")
+<!-- /.imagepair -->
 
 This ensures that each of your `Jobs` will be given a unique file name, and not overwrite each other.
 
@@ -73,9 +75,11 @@ This ensures that each of your `Jobs` will be given a unique file name, and not 
 
 On Windows, first open the `Preferences` window using the `Tools` menu. In the `Output Files` section, ensure that the `Automatically name output files` setting is selected. Set a `Default Path` (where your new videos will be created) and make sure `Title` is part of the `File Format` field.
 
+<!-- .imagepair -->
 ![Opening the Preferences window on Windows](../../images/windows/preferences-menu-1.0.0.png "Open the Preferences window using the Tools menu.")
 
 ![Selecting the Automatically name output files setting](../../images/windows/preferences-auto-naming-1.0.0.png "Set up Automatic File Naming to ensure unique file names when adding multiple Titles to the Queue.")
+<!-- /.imagepair -->
 
 This ensures that each of your `Jobs` will be given a unique file name, and not overwrite each other.
 
@@ -85,13 +89,13 @@ If your `Source` is a Blu-ray, DVD, or other disc or disc-like format with multi
 
 Additionally, you may open a folder of multiple single-`Title` videos (excluding discs and disc-like formats) as one virtual `Source` with multiple `Titles` using the `Open Source` dialog, and then add multiple `Titles` to the `Queue`[^batch-scan-subdirectories].
 
-<!-- .system-macos -->
+<!-- .system-macos.imagepair -->
 
 ![Opening a folder containing multiple video Sources](../../images/mac/open-source-dialog-folder-1.0.0.png "The Open Source dialog allows you to select a folder containing multiple video files.")
 
 ![Selecting a Title](../../images/mac/title-selection-1.1.0.png "The Title control lets you select which video clip you want to use.")
 
-<!-- /.system-macos -->
+<!-- /.system-macos.imagepair -->
 <!-- .system-linux -->
 
 On Linux, select `Add Multiple` from the `Queue` menu, then select the `Titles` you wish to encode using the presented dialog. Be sure to give each a unique file name.
@@ -101,9 +105,11 @@ On Linux, select `Add Multiple` from the `Queue` menu, then select the `Titles` 
 
 On Mac, select `Add Titles to Queue...` from the `File` menu, then select the `Titles` you wish to encode using the presented dialog.
 
+<!-- .imagepair -->
 ![Add Titles to Queue menu item](../../images/mac/add-titles-to-queue-menu-1.0.0.png "Select Add Titles to Queue... from the File menu to open a selection dialog.")
 
 ![Selecting multiple Titles to add to the Queue](../../images/mac/add-titles-to-queue-1.0.0.png "Select the Titles you wish to encode from the Add Titles to Queue dialog.")
+<!-- /.imagepair -->
 
 <!-- /.system-macos -->
 <!-- .system-windows -->
