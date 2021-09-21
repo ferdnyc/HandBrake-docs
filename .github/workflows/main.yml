@@ -21,11 +21,11 @@ jobs:
       run: |
         git submodule update --init
         ./build-tools 
-        ls -la
+        #ls -la
         
     - name: Build
       run: |
-        bash ./marsh build --markdown="tools/local/bin/markdown"
+        bash ./marsh build
 
     - uses: actions/upload-artifact@master
       with:
